@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="30457" started-at="2020-02-29T20:25:04 IST" finished-at="2020-02-29T20:25:34 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="30457" started-at="2020-02-29T20:25:04 IST" finished-at="2020-02-29T20:25:34 IST">
+      <class name="com.Amazon.tests.TestLaptopDetailsPage">
+        <test-method status="PASS" signature="initializeDriver()[pri:0, instance:com.Amazon.tests.TestLaptopDetailsPage@3701eaf6]" name="initializeDriver" is-config="true" duration-ms="13695" started-at="2020-02-29T20:25:04 IST" finished-at="2020-02-29T20:25:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method status="PASS" signature="testLaptopDetails()[pri:0, instance:com.Amazon.tests.TestLaptopDetailsPage@3701eaf6]" name="testLaptopDetails" duration-ms="16014" started-at="2020-02-29T20:25:17 IST" description="Test if the Laptop details are displayed correctly." finished-at="2020-02-29T20:25:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLaptopDetails -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Amazon.tests.TestLaptopDetailsPage@3701eaf6]" name="tearDown" is-config="true" duration-ms="718" started-at="2020-02-29T20:25:33 IST" finished-at="2020-02-29T20:25:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Amazon.tests.TestLaptopDetailsPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
