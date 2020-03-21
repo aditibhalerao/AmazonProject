@@ -22,7 +22,7 @@ public class TestLaptopDetailsPage extends TestPrerequisites {
 	static String expected;
 	String actual;
 	
-	@Test(description="Test if the Laptop details are displayed correctly.")
+	@Test(description="Test if the Laptop details are displayed correctly.", retryAnalyzer=RetryTestcases.class)
 	public void testLaptopDetails () {
 		
 		try {
