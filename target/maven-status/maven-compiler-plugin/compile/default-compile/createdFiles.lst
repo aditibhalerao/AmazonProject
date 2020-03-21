@@ -1,0 +1,8 @@
+com\Amazon\pageClasses\LaptopDetailsPage.class
+com\Amazon\basePackage\Driver.class
+com\Amazon\pageClasses\LaptopResultsPage.class
+com\Amazon\constants\ConstantValues.class
+com\Amazon\pageClasses\CartPage.class
+com\Amazon\pageClasses\HomePage.class
+com\Amazon\commonFunctions\CommonMethods.class
+com\Amazon\pageClasses\ShoppingPage.class
