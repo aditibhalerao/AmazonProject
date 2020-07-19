@@ -5,7 +5,6 @@
     <classes>
       <class name="com.Amazon.tests.TestLaptopDetailsPage">
         <methods>
-          <include name="testCart"/>
           <include name="initializeDriver"/>
           <include name="tearDown"/>
           <include name="testLaptopDetails"/>

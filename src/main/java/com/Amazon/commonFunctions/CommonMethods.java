@@ -33,9 +33,9 @@ public class CommonMethods {
 		click(el);
 	}
 	
-	public static void selectFromDropdown(WebElement el, String visibleText) {
+	public static void selectFromDropdown(WebElement el, String valueToBeSelected) {
 		Select s= new Select(el);
-		s.selectByVisibleText(visibleText);
+		s.selectByVisibleText(valueToBeSelected);
 	}
 	
 	public static String customizeXpath(WebElement el) {

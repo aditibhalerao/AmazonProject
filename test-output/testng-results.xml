@@ -1,30 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="47556" started-at="2020-03-20T22:25:30 IST" finished-at="2020-03-20T22:26:18 IST">
+  <suite name="Suite" duration-ms="54498" started-at="2020-07-12T17:24:17 IST" finished-at="2020-07-12T17:25:12 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="47556" started-at="2020-03-20T22:25:30 IST" finished-at="2020-03-20T22:26:18 IST">
+    <test name="Test" duration-ms="54498" started-at="2020-07-12T17:24:17 IST" finished-at="2020-07-12T17:25:12 IST">
       <class name="com.Amazon.tests.TestPrerequisites">
-        <test-method status="PASS" signature="initializeDriver()[pri:0, instance:com.Amazon.tests.TestPrerequisites@6737fd8f]" name="initializeDriver" is-config="true" duration-ms="13604" started-at="2020-03-20T22:25:30 IST" finished-at="2020-03-20T22:25:44 IST">
+        <test-method status="PASS" signature="initializeDriver()[pri:0, instance:com.Amazon.tests.TestPrerequisites@3701eaf6]" name="initializeDriver" is-config="true" duration-ms="12961" started-at="2020-07-12T17:24:18 IST" finished-at="2020-07-12T17:24:30 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeDriver -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Amazon.tests.TestPrerequisites@6737fd8f]" name="tearDown" is-config="true" duration-ms="1223" started-at="2020-03-20T22:26:17 IST" finished-at="2020-03-20T22:26:18 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Amazon.tests.TestPrerequisites@3701eaf6]" name="tearDown" is-config="true" duration-ms="700" started-at="2020-07-12T17:25:11 IST" finished-at="2020-07-12T17:25:12 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.Amazon.tests.TestPrerequisites -->
       <class name="com.Amazon.tests.TestLaptopDetailsPage">
-        <test-method status="PASS" signature="testLaptopDetails()[pri:0, instance:com.Amazon.tests.TestLaptopDetailsPage@72b6cbcc]" name="testLaptopDetails" duration-ms="27249" started-at="2020-03-20T22:25:44 IST" description="Test if the Laptop details are displayed correctly." finished-at="2020-03-20T22:26:11 IST">
+        <test-method status="PASS" signature="testLaptopDetails()[pri:0, instance:com.Amazon.tests.TestLaptopDetailsPage@627551fb]" name="testLaptopDetails" duration-ms="40771" started-at="2020-07-12T17:24:31 IST" description="Test if the Laptop details are displayed correctly." finished-at="2020-07-12T17:25:11 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLaptopDetails -->
-        <test-method status="PASS" signature="testCart()[pri:0, instance:com.Amazon.tests.TestLaptopDetailsPage@72b6cbcc]" name="testCart" duration-ms="5399" started-at="2020-03-20T22:26:11 IST" depends-on-methods="com.Amazon.tests.TestLaptopDetailsPage.testLaptopDetails" finished-at="2020-03-20T22:26:17 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCart -->
       </class> <!-- com.Amazon.tests.TestLaptopDetailsPage -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->

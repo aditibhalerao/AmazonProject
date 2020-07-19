@@ -49,7 +49,7 @@ public class LaptopResultsPage extends CommonMethods {
 		
 		List<WebElement> list = Driver.d.findElements(stars);
 		for(int i=0; i<list.size(); i++) {
-			if(list.get(i).getAttribute("aria-label").contains("5.0")) {
+			if(list.get(i).getAttribute("aria-label").contains("4.4")) {
 				String s= "//*[@data-index='" +i+"']//h2/a";
 				click(Driver.d.findElement(By.xpath(s)));
 				switchToWindow();
